@@ -1,32 +1,35 @@
 {
-  "name": "auth-challenge",
+  "name": "Sprint-Challenge-Authentication",
   "version": "1.0.0",
-  "description": "Authentication Sprint Challenge",
+  "description": "- **DISCLAIMER** Authentication is a subject that many people spend a large amount time throughout their careers obtaining knowledge over. This is not something we expect you to have a mastery over, rather, we're preparing you to be able have an intelligent conversation about the subject.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Authentication.git"
+    "url": "git+https://github.com/troyAmlee/Sprint-Challenge-Authentication.git"
   },
   "keywords": [],
-  "author": "Lambda School",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication/issues"
+    "url": "https://github.com/troyAmlee/Sprint-Challenge-Authentication/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication#readme",
+  "homepage": "https://github.com/troyAmlee/Sprint-Challenge-Authentication#readme",
   "dependencies": {
-    "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
-    "cors": "^2.8.4",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.3.0",
+    "express-session": "^1.15.6",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
     "knex": "^0.15.2",
-    "sqlite3": "^4.0.2"
+    "sqlite3": "^4.0.4"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.7"
   }
 }
