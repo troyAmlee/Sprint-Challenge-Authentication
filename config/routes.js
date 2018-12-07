@@ -20,7 +20,7 @@ function generateToken(user){
   const jwtOptions = {
       expiresIn: '5m',
   }
-  console.log('token from process.env:', jwtKey);
+  console.log('Dope Token:', jwtKey);
   return jwt.sign(jwtPayload, jwtKey, jwtOptions)
 }
 
